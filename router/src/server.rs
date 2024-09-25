@@ -2029,6 +2029,7 @@ async fn start(
 
     #[cfg(feature = "google")]
     {
+        use crate::vertex::__path_vertex_compatibility;
         use crate::vertex::{VertexInstance, VertexRequest, VertexResponse};
 
         #[derive(OpenApi)]
