@@ -2029,7 +2029,7 @@ async fn start(
 
     #[cfg(feature = "google")]
     {
-        use crate::VertexInstance;
+        use crate::{VertexInstance, VertexRequest, VertexResponse};
 
         #[derive(OpenApi)]
         #[openapi(
